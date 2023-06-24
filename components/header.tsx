@@ -31,7 +31,11 @@ const Header: React.FC = () => {
             <li>
               <Link href="/login" legacyBehavior>
                 <Button component="a" color="inherit">
-                  {isAuthenticated ? `Welcome, ${name}!` : 'Login'}
+                {isAuthenticated ? (
+                  <div>Welcome, {name !== '' ? name : 'Unknown user'}</div>
+                ) : (
+                  <div>Login</div>
+                )}
                 </Button>
               </Link>
             </li>

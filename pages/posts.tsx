@@ -60,7 +60,7 @@ const Posts: React.FC = () => {
   return (
     <div>
       <Header />
-      <Typography className={styles.title}>Welcome, {name}</Typography>
+      <Typography className={styles.title}>Welcome, {name !== '' ? name : 'Unknown user'}</Typography>
       <Typography variant="h5">Posts:</Typography>
       <ul className={styles.postList}>
         {posts.map((post, index) => (
