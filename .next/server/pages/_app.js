@@ -43,14 +43,14 @@ var helpers = __webpack_require__(7182);
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./pages/authContext.tsx
-var authContext = __webpack_require__(2722);
+// EXTERNAL MODULE: ./components/authContext.tsx
+var authContext = __webpack_require__(1939);
 ;// CONCATENATED MODULE: ./pages/_app.tsx
 
 
 
 const MyApp = ({ Component, pageProps })=>{
-    return /*#__PURE__*/ jsx_runtime.jsx(authContext.AuthProvider, {
+    return /*#__PURE__*/ jsx_runtime.jsx(authContext/* AuthProvider */.H, {
         children: /*#__PURE__*/ jsx_runtime.jsx(Component, {
             ...pageProps
         })
@@ -93,13 +93,12 @@ const MyApp = ({ Component, pageProps })=>{
 
 /***/ }),
 
-/***/ 2722:
+/***/ 1939:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   AuthContext: () => (/* binding */ AuthContext),
-/* harmony export */   AuthProvider: () => (/* binding */ AuthProvider)
+/* harmony export */   H: () => (/* binding */ AuthProvider),
+/* harmony export */   V: () => (/* binding */ AuthContext)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
