@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import { AuthContext } from '../pages/authContext';
+import { AuthContext } from './authContext';
 import { useRouter } from 'next/router';
 
 const Header: React.FC = () => {

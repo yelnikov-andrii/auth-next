@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState, useRef } from 'react';
 import { Typography } from '@mui/material';
 import axios from 'axios';
 import router from 'next/router';
-import { AuthContext } from './authContext';
+import { AuthContext } from '../components/authContext';
 import styles from './posts.module.css';
 import Header from '../components/header';
 

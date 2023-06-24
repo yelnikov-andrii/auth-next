@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppProps } from 'next/app';
-import { AuthProvider } from './authContext';
+import { AuthProvider } from '../components/authContext';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

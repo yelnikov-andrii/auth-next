@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import router from 'next/router';
 import { Button, TextField, Typography, Box } from '@mui/material';
-import { AuthContext } from './authContext';
+import { AuthContext } from '../components/authContext';
 import Header from '../components/header';
 
 interface LoginProps {
