@@ -1,0 +1,20 @@
+.postItem {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.postItem:hover {
+  background-color: #e0e0e0;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+}
