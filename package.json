@@ -1,11 +1,15 @@
 {
   "name": "auth-next",
+  "homepage": "https://yelnikov-andrii.github.io/auth-next",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export && npx gh-pages -d out"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,7 @@
     "@mui/material": "^5.13.6",
     "@mui/styles": "^5.13.2",
     "axios": "^1.4.0",
+    "gh-pages": "^5.0.0",
     "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
