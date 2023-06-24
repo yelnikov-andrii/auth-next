@@ -1,4 +1,4 @@
 # auth-next 
 
 
-[DEMO](https://yelnikov-andrii.github.io/auth-next/)
+[DEMO](https://auth-next-n3lpzuubh-yelnikov-andrii.vercel.app/)
