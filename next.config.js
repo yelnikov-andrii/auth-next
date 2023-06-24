@@ -1,6 +1,6 @@
 import { NextConfig } from 'next';
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   name: 'auth-next',
   basePath: '/',
   assetPrefix: '/',
