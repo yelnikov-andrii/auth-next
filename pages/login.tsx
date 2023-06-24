@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import router from 'next/router';
 import { Button, TextField, Typography, Box } from '@mui/material';
 import { AuthContext } from '../components/authContext';
@@ -18,7 +18,7 @@ const Login: React.FC<LoginProps> = () => {
 
   console.log(name, isAuthenticated)
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (isAuthenticated) {
       router.push('/posts');
     }
