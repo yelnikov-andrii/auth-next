@@ -2,6 +2,7 @@
   "name": "auth-next",
   "homepage": "https://yelnikov-andrii.github.io/auth-next",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
